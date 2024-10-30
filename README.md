@@ -1,9 +1,5 @@
-# Lending Club Case Study
-> The object of this case study is to find which types of loans have been defaulted in the Past and 
-implement EDA to understand how consumer attributes and loan attributes influence the 
-tendency of default. The aim is to identify patterns which indicate if a person is likely to default, 
-which may be used for taking actions such as denying the loan, reducing the amount of the loan, 
-lending (to risky applicants) at a higher interest rate, etc.
+# Multiple Linear Regression : Bike_Sharing_Assignme
+You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
 
 ## Table of Contents
@@ -30,18 +26,18 @@ How well those variables describe the bike demands
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Technologies Used
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.feature_selection import RFE
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score
-from sklearn.preprocessing import MinMaxScaler
-import statsmodels.api as sm
-from statsmodels.stats.outliers_influence import variance_inflation_factor
+- import numpy as np
+- import pandas as pd
+- import matplotlib.pyplot as plt
+- import seaborn as sns
+- from sklearn.model_selection import train_test_split
+- from sklearn.linear_model import LinearRegression
+- from sklearn.feature_selection import RFE
+- from sklearn.model_selection import train_test_split
+- from sklearn.metrics import r2_score
+- from sklearn.preprocessing import MinMaxScaler
+- import statsmodels.api as sm
+- from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
